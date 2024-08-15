@@ -1,0 +1,27 @@
+/**
+|============================
+| include css partials with
+| default @import url()
+|============================
+*/
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about-us.css');
+@import url('./our-yachts.css');
+@import url('./advantages.css');
+@import url('./rent.css');
+@import url('./reviews.css');
+@import url('./footer.css');
+@import url('./modal-menu.css');
+:root {
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  --background-sheet: #0e1823;
+  --primary-white: #fbfbfb;
+  --primary-green: #1b414b;
+  --primary-black: #040306;
+}
